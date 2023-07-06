@@ -1,5 +1,3 @@
-// SearchBooks.js
-
 import React, { useState } from 'react';
 import { useMutation } from '@apollo/client';
 import { SAVE_BOOK } from '../utils/mutations';
@@ -34,7 +32,11 @@ const SearchBooks = () => {
     }
   };
 
-  // Rest of the component code
+  return (
+    <div>
+      {/* Your JSX code goes here */}
+    </div>
+  );
 };
 
 export default SearchBooks;
